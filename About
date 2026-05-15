@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<title>
+About
+</title>
+<head>
+</head>
+<style>
+h1 {
+color: white;
+text-align: center;
+}
+h3 {
+color: white;
+text-align: center;
+}
+.BLUEIMAGE {
+  background-image: url('backgroundblue.jpeg');
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: gray;
+	height: 1000px
+row {
+display: flex;
+justify-content: space-between; /* Even spacing */
+}
+row img {
+width: 32%; /* Adjust for spacing */
+border-radius: 5px;
+}
+
+</style>
+<meta charset="utf-8">
+<body style="background-color:black;">
+<h1>
+About
+</h1>
+<div class="row">
+<img src= "fishing.jpg"  Width="300" Height= "200" />
+<img src= "drawing.jpg"  Width= "300" Height= "200" />
+<img src= "gaming.avif" Width= "300" Height= "200" />
+<h3>
+My name is Alyra Boomgarden, I'm a junior at Albia High School.
+<br>
+My favorite hobbies are fishing, drawing, and video games.
+<br>
+I am currently taking a class for Webpage development for Indian Hills.
+<br>
+Ive always had an interest in computers and technology so I thought why not make it a career?
